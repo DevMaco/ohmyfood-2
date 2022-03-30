@@ -1,0 +1,24 @@
+@import "../utils/_mixin.scss";
+.explorer {
+  text-align: center;
+}
+.explorer2 h2 {
+  margin-top: 2rem;
+
+  font-size: 1.5 rem;
+}
+.explorer button {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  @include box-shadow;
+
+  background: linear-gradient(
+    to top,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+}

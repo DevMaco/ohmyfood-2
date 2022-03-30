@@ -1,0 +1,36 @@
+.menus {
+  background-color: #f6f6f6;
+}
+
+.menus__cards {
+  display: grid;
+  grid-template-columns: reapeat(2, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 1000px) {
+  .menus__cards {
+    grid-template-columns: repeat(1.1fr);
+  }
+}
+
+.card {
+  border-radius: 3rem;
+}
+.card .card__image {
+  background-image: url("../../asset/menu-1.jpg");
+  height: 15rem;
+  border-radius: 3rem;
+  background-size: cover;
+}
+.card image-1 {
+  background-image: url("../../asset/menu-1-1.jpg");
+}
+.card image-2 {
+  background-image: url("../../asset/menu-2-1.jpg");
+}
+.card image-3 {
+  background-image: url("../../asset/menu-3-1.jpg");
+}
+.card image-4 {
+  background-image: url("../../asset/menu-4-1.jpg");
+}/*# sourceMappingURL=menus.css.map */
